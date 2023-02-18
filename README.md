@@ -2,7 +2,7 @@
 This project is a pourover coffee calculator that gives a coffee bean to water ratio, depending on desired taste of bold, medium, or light coffee preference.
 
 To do:
-x add 3 buttons for choices in HTML file
+- (done) add 3 buttons for choices in HTML file
 - decide on switch or if/else to store bold, med, light logic
 - onclick events: run bold, med, light algorithms
 - lastly, style
