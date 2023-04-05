@@ -1,4 +1,4 @@
-# PouroverCoffeeCalc
+# Pourover Coffee Calculator
 This project is a pourover coffee calculator that gives a coffee bean to water ratio, depending on desired taste of bold, medium, or light coffee preference.
 
 To do:
