@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+	<title>Pourover Coffee Ratio Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div>
-    <h1>A great pourover coffee experience</h1>
-    <h2>Select a desired strength:</h2>
-    <div id='choices'>
-      <button id='bold'>Bold</button>
-      <button id='bold'>Medium</button>
-      <button id='bold'>Light</button>
-    </div>
-    <div id='result'>
-      <h2>You have selected: (strength)</h2>
-      <h3>Add text stating ratio and how much beans to ground and water to add</h3>
-    </div>
-  </div>
+	<h1>Pourover Coffee Ratio Calculator</h1>
+	<p>Choose your desired coffee strength and the amount of coffee you want to make (in grams) to calculate the coffee-to-water ratio:</p>
+	<form>
+		<label for="coffee-strength">Desired coffee strength:</label>
+		<select id="coffee-strength" name="coffee-strength" required>
+			<option value="weak">Weak</option>
+			<option value="medium">Medium</option>
+			<option value="strong">Strong</option>
+		</select>
+
+		<label for="coffee-amount">Ground coffee amount (in grams):</label>
+		<input type="number" id="coffee-amount" name="coffee-amount" min="0" step="1" required>
+
+		<button type="submit">Calculate</button>
+	</form>
+
+	<p id="result"></p>
 </body>
+<script src="script.js"></script>
+
 </html>
