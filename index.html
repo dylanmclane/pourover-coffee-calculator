@@ -12,17 +12,18 @@
 		<label for="coffee-strength">Desired coffee strength:</label>
 		<select id="coffee-strength" name="coffee-strength" required>
 			<option value="weak">Weak</option>
-			<option value="medium">Medium</option>
+			<option value="medium">Medium (recommended)</option>
 			<option value="strong">Strong</option>
 		</select>
 
 		<label for="coffee-amount">Ground coffee amount (in grams):</label>
-		<input type="number" id="coffee-amount" name="coffee-amount" min="0" step="1" required>
+		<input type="number" id="coffee-amount" name="coffee-amount" value="20" min="0" step="1" required>
 
 		<button type="submit">Calculate</button>
 	</form>
 
 	<p id="result"></p>
+	<img id="coffee-bag" src="images/two bags of coffee beans 400x400.png"></img>
 </body>
 <script src="script.js"></script>
 
