@@ -6,6 +6,7 @@ This project is a pourover coffee calculator that gives a coffee bean to water r
 - Used constant for bold, med, weak for simplicity
 
 To do:
+- Optimize for mobile
 - (done) add 3 buttons for choices in HTML file
 - (done) decide on switch or if/else to store bold, med, light logic
 - (done) onclick events: run bold, med, light algorithms
