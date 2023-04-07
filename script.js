@@ -6,9 +6,9 @@ form.addEventListener('submit', function(event) {
 	const coffeeStrength = document.getElementById('coffee-strength').value;
 	const coffeeAmount = Number(document.getElementById('coffee-amount').value);
 	const coffeeRatio = {
-		weak: 1 / 15,
-		medium: 1 / 16,
-		strong: 1 / 17
+		weak: 1 / 19,
+		medium: 1 / 17,
+		strong: 1 / 15
 	}[coffeeStrength];
 	const waterAmount = coffeeAmount / coffeeRatio;
 	
