@@ -64,5 +64,6 @@ button {
     [id="coffee-bag"] {
       width: 200px;
       height: 200px;
+      bottom: 10px;
     }
   } 
