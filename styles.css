@@ -69,4 +69,7 @@ button {
       height: 180px;
       bottom: 10px;
     }
+     [id="coffee-amount"] {
+      width: 96%;
+    }
   } 
