@@ -54,6 +54,9 @@ button {
     max-width: 600px;
     text-align: left;
 }
+#coffee-amount {
+    width: 97%;
+}
 #coffee-bag {
     position: absolute;
     left: 100px;
